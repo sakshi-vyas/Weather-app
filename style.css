@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.extra{
+    opacity:0.5;
+    font-weight:bold;
+    width :50%;
+    height:70%;
+    background-color: #ffffff;
+    text-align:center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ background-image:url('https://images.unsplash.com/photo-1543166769-6d48ccd17a1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'); 
+ color:rgb(5, 4, 4);  
+ background-size:cover;
+}
+
+.location , .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Chilanka', cursive;
+}
+.location{
+    margin: auto;
+}
+.temperature{
+    flex-direction: column;
+    margin:auto;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+  
+}
+.temperature-degree{
+    margin:auto;
+}
+.degree-section{
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+.temperature-description{
+    font-family: 'Chilanka', cursive;
+    color:blue;
+}
